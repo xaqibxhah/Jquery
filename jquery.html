@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+       $(document).ready(function(){
+        $(".one,h1").hover(function(){
+            $(this).hide();
+        });
+       });
+        </script>
+
+        <script>
+            $(document).ready(function(){
+             $("img").dblclick(function(){
+               $(this).hide();
+             });
+           
+            });
+        </script>
+
+<script>
+    $(document).ready(function(){
+     $("two").dblclick(function(){
+       $(this).hide();
+     });
+   
+    });
+</script>
+
+<script>
+    $(document).ready(function(){
+        $("#hide").click(function(){
+            $("p").hide();
+        })
+    })
+    $(document).ready(function(){
+        $("#show").click(function(){
+            $("p").show();
+        })
+    })
+
+ 
+
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeIn();
+    $("#div2").fadeIn("slow");
+    $("#div3").fadeIn(3000);
+  });
+});
+
+
+</script>
+
+        <h1>saqib</h1>
+</head>
+<body>
+
+    <button>Click to fade in boxes</button><br><br>
+
+<div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+<div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+<div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+
+    <p class="text">If you click on the "Hide" button, I will disappear.</p>
+
+    <button id="hide">hide</button>
+    <button id="show">show</button>
+
+    <img src="c:\Users\waqar com\Desktop\saqib\download (5).jfif" alt="">
+
+    <img src="c:\Users\waqar com\Desktop\saqib\download (3) - Copy.jfif" alt="" class="one">
+
+    <img src="c:\Users\waqar com\Desktop\saqib\download (2).jfif" alt="" class="two">
+</body>
+</html>

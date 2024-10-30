@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #1e7a86;
+  border: solid 5px #f80000;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
+ 
+<div id="flip"><B>LAMBORGINI</B></div>
+<div id="panel"><img src="c:\Users\waqar com\Desktop\saqib\download (5).jfif" alt=""></div>
+
+</body>
+</html>
